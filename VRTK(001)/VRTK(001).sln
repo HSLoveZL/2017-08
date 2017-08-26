@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRTK(001)", "VRTK(001).csproj", "{E822D636-AD65-A21A-2090-82FF681D85DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRTK(001).Editor", "VRTK(001).Editor.csproj", "{C60DDE30-AA6B-FE2B-C23E-242C7ECBA31A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E822D636-AD65-A21A-2090-82FF681D85DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E822D636-AD65-A21A-2090-82FF681D85DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E822D636-AD65-A21A-2090-82FF681D85DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E822D636-AD65-A21A-2090-82FF681D85DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60DDE30-AA6B-FE2B-C23E-242C7ECBA31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60DDE30-AA6B-FE2B-C23E-242C7ECBA31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60DDE30-AA6B-FE2B-C23E-242C7ECBA31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60DDE30-AA6B-FE2B-C23E-242C7ECBA31A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
