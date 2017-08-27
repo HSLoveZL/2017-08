@@ -17,7 +17,7 @@ public class Point : MonoBehaviour {
 		originScale = reticleCanvas.transform.localScale;
 
 		//获取当前时间并输出到CSV文件
-		FileStream f = new FileStream(@"D:\GAZEPOINT\test.csv", FileMode.OpenOrCreate, FileAccess.Write);
+		FileStream f = new FileStream(@"D:\GAZEPOINT\testCar.csv", FileMode.OpenOrCreate, FileAccess.Write);
 		StreamWriter sw = new StreamWriter(f);
 		sw.BaseStream.Seek(0, SeekOrigin.End);
 		sw.WriteLine(Environment.NewLine);
@@ -43,7 +43,7 @@ public class Point : MonoBehaviour {
 			reticleCanvas.transform.forward = hit.normal;
 
 			//当击中物体时输出坐标点
-			using (FileStream fileW = new FileStream(@"D:\GAZEPOINT\test.csv", FileMode.OpenOrCreate, FileAccess.Write))
+			using (FileStream fileW = new FileStream(@"D:\GAZEPOINT\testCar.csv", FileMode.OpenOrCreate, FileAccess.Write))
 			{
 				StreamWriter sw = new StreamWriter(fileW);
 				sw.BaseStream.Seek(0, SeekOrigin.End);
