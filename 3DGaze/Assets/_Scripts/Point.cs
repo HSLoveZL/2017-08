@@ -39,6 +39,7 @@ public class Point : MonoBehaviour {
 		if(Physics.Raycast(ray, out hit, 100))
 		{
 			reticleCanvas.transform.position = hit.point;
+			//Debug.DrawLine(hit.point, hit.point, Color.red);//划出射线，只有在scene视图中才能看到
 			reticleCanvas.transform.localScale = originScale * hit.distance;
 			reticleCanvas.transform.forward = hit.normal;
 
