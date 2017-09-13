@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "凝视环", "凝视环.csproj", "{E545D78C-6535-1530-6CCC-B39227EEBAB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "凝视环.Editor", "凝视环.Editor.csproj", "{B20832F4-B5A2-7A98-09C0-CB73496E5DE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E545D78C-6535-1530-6CCC-B39227EEBAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E545D78C-6535-1530-6CCC-B39227EEBAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E545D78C-6535-1530-6CCC-B39227EEBAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E545D78C-6535-1530-6CCC-B39227EEBAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20832F4-B5A2-7A98-09C0-CB73496E5DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20832F4-B5A2-7A98-09C0-CB73496E5DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20832F4-B5A2-7A98-09C0-CB73496E5DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20832F4-B5A2-7A98-09C0-CB73496E5DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

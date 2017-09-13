@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideShowTest", "SlideShowTest.csproj", "{4989345B-AA3B-592C-DCC7-159A9299AA2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideShowTest.Editor", "SlideShowTest.Editor.csproj", "{656BC51C-A422-6542-4911-A53A7625F0DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4989345B-AA3B-592C-DCC7-159A9299AA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4989345B-AA3B-592C-DCC7-159A9299AA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4989345B-AA3B-592C-DCC7-159A9299AA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4989345B-AA3B-592C-DCC7-159A9299AA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656BC51C-A422-6542-4911-A53A7625F0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656BC51C-A422-6542-4911-A53A7625F0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656BC51C-A422-6542-4911-A53A7625F0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656BC51C-A422-6542-4911-A53A7625F0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
