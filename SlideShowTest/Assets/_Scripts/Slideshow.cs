@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 namespace UnityEngine.UI
 {
-    [AddComponentMenu("UI/Slidershow", 39)]          //添加菜单
+	[AddComponentMenu("UI/Slidershow", 39)]          //添加菜单
     [ExecuteInEditMode]                             //编辑模式下可执行
     [DisallowMultipleComponent]                     //不可重复
     [RequireComponent(typeof(RectTransform))]       //依赖RectTransform组件

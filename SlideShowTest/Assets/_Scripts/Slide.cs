@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VRGazeItem : MonoBehaviour {
+public class Slide : MonoBehaviour {
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -16,12 +18,6 @@ public class VRGazeItem : MonoBehaviour {
 	
 	// FixedUpdate is called about 30 per frame
 	void FixedUpdate(){
-		
-	}
-	
-	// collision events
-	void OnCollisionEnter(Collision collision)
-	{
 		
 	}
 }

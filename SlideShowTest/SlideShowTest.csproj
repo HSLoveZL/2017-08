@@ -181,8 +181,8 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
     <Compile Include="Assets\_Scripts\GazeTest.cs" />
+    <Compile Include="Assets\_Scripts\Slide.cs" />
     <Compile Include="Assets\_Scripts\Slideshow.cs" />
-    <Compile Include="Assets\_Scripts\VRGazeItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
